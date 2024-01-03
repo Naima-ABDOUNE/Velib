@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<style>
+    @keyframes blink {
+        0% { opacity: 0; }
+        50% { opacity: 1; }
+        100% { opacity: 0; }
+    }
+    
+    .header-animation {
+        animation: blink 2s infinite; /* 2s de durée, répétition infinie */
+    }
+
+    @keyframes zoomIn {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    header {
+        text-align: center;
+        margin: 20px 0;
+        background: red;
+        padding: 10px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .btn:hover {
+        background-color: #258cd1;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    p {
+        line-height: 1.5; /* Ajustez la valeur selon vos préférences */
+        /* Autres styles de paragraphe */
+    }
+    a {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Accueil - Vélib'</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Vélib'</h1>
+    </header>
+
+    <section>
+        <p>Bienvenue dans notre explorateur de données Vélib' en temps réel ! Nous sommes ravis de vous accueillir sur notre plateforme dédiée à l'analyse des informations en direct sur les vélos Vélib' à Paris. Explorez les tendances d'utilisation, la disponibilité des stations et bien plus encore. Utilisez notre outil interactif de visualisation des données pour une expérience complète. Pédalons ensemble à travers les données passionnantes de Vélib' ! 🚴‍♂️✨</p>
+        <a href="velib_map.html">Trouver une station</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vélib'. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        
+
+    
+    
+    </script>
+</body>
+</html>
